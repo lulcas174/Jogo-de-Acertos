@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jogo adivinhe o número</title>
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+
+  <body>
+    <h1>Jogo adivinhe o número</h1>
+
+    <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. 
+    Nós lhe diremos se seu palpite foi muito alto ou muito baixo.
+    </p>
+<div class="form">
+  <label for="campoPalpite">Digite seu palpite: </label>
+  <input type="text" id="campoPalpite" id="campoPalpite" class="campoPalpite">
+  <input type="submit" value="Enviar palpite"  id="envioPalpite" class="envioPalpite">
+</div>
+
+<div class="resultadoPalpites">
+  <p id="palpites" class="palpites"></p>
+  <p id="ultimoResultado" class="ultimoResultado"></p>
+  <p id="palpiteBaixoOuAlto" class="palpiteBaixoOuAlto"></p>
+</div>
+
+</body>
+
+<script src="./JavaScript/script.js"></script>
+</html>
